@@ -61,8 +61,8 @@
         [view setImage:/*@"RITLPhotos.bundle/ritl_bottomSelected".ritl_image*/NSBundle.ritl_bottomSelected forState:UIControlStateSelected];
         
         view.titleLabel.font = [UIFont systemFontOfSize:14];
-        [view setTitle:NSLocalizedString(@"原图", @"") forState:UIControlStateNormal];
-        [view setTitle:NSLocalizedString(@"原图", @"") forState:UIControlStateSelected];
+        [view setTitle:NSLocalizedString(@"原图测试", @"") forState:UIControlStateNormal];
+        [view setTitle:NSLocalizedString(@"原图测试", @"") forState:UIControlStateSelected];
         
         [view setTitleColor:UIColor.whiteColor forState:UIControlStateNormal];
         
